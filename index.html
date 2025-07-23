@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Robot Arm Control Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Robot Arm Control Panel</h2>
+
+<div class="controls">
+  <div class="slider-container">
+    <label>Motor 1: <span id="val1">90</span></label>
+    <input type="range" id="motor1" min="0" max="180" value="90">
+  </div>
+  <div class="slider-container">
+    <label>Motor 2: <span id="val2">90</span></label>
+    <input type="range" id="motor2" min="0" max="180" value="90">
+  </div>
+  <div class="slider-container">
+    <label>Motor 3: <span id="val3">90</span></label>
+    <input type="range" id="motor3" min="0" max="180" value="90">
+  </div>
+  <div class="slider-container">
+    <label>Motor 4: <span id="val4">90</span></label>
+    <input type="range" id="motor4" min="0" max="180" value="90">
+  </div>
+  <div class="slider-container">
+    <label>Motor 5: <span id="val5">90</span></label>
+    <input type="range" id="motor5" min="0" max="180" value="90">
+  </div>
+  <div class="slider-container">
+    <label>Motor 6: <span id="val6">90</span></label>
+    <input type="range" id="motor6" min="0" max="180" value="90">
+  </div>
+
+  <button onclick="resetSliders()">Reset</button>
+  <button onclick="savePose()">Save Pose</button>
+  <button onclick="runPose()">Run</button>
+</div>
+
+<hr>
+
+<div id="poseTable"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

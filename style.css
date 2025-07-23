@@ -1,0 +1,23 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+.controls {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+}
+
+.slider-container {
+  margin-bottom: 10px;
+}
+
+input[type="range"] {
+  width: 200px;
+}
+
+button {
+  margin: 5px;
+}
